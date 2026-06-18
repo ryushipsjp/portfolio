@@ -53,7 +53,7 @@ export default function SkillsSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.08 + i * 0.09, duration: 0.5 }}
-              className="border border-[#1e1e1e] rounded-xl p-5 bg-[#0f0f0f]"
+              className="border border-[#16281a] rounded-xl p-5 bg-[#091508]"
             >
               <p className="font-mono text-[#00ff88] text-xs mb-4 tracking-wider">
                 {group.category}

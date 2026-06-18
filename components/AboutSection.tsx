@@ -38,10 +38,10 @@ export default function AboutSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.1, duration: 0.5 }}
-          className="flex items-center gap-5 bg-[#0f0f0f] border border-[#1e1e1e] rounded-2xl p-5 mt-8 mb-10 max-w-sm"
+          className="flex items-center gap-5 bg-[#091508] border border-[#16281a] rounded-2xl p-5 mt-8 mb-10 max-w-sm"
         >
           {/* Avatar */}
-          <div className="relative flex-shrink-0 w-20 h-20 rounded-full overflow-hidden border-2 border-[#00ff88]/30 bg-[#161616]">
+          <div className="relative flex-shrink-0 w-20 h-20 rounded-full overflow-hidden border-2 border-[#00ff88]/30 bg-[#0d1e0e]">
             <Image
               src="/avatar.png"
               alt="ryusu avatar"
@@ -93,7 +93,7 @@ export default function AboutSection() {
             </p>
             <a
               href="#contact"
-              className="inline-flex font-mono text-xs text-[#00ff88] border border-[#00ff88] px-5 py-2.5 rounded hover:bg-[#00ff88] hover:text-[#0a0a0a] transition-all duration-200"
+              className="inline-flex font-mono text-xs text-[#00ff88] border border-[#00ff88] px-5 py-2.5 rounded hover:bg-[#00ff88] hover:text-[#060e08] transition-all duration-200"
             >
               話を聞いてみる →
             </a>
@@ -107,7 +107,7 @@ export default function AboutSection() {
                 initial={{ opacity: 0, x: 20 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ delay: 0.2 + i * 0.12, duration: 0.5 }}
-                className="border border-[#1e1e1e] rounded-lg p-4 bg-[#0f0f0f] hover:border-[#00ff88]/30 transition-colors duration-300"
+                className="border border-[#16281a] rounded-lg p-4 bg-[#091508] hover:border-[#00ff88]/30 transition-colors duration-300"
               >
                 <p className="font-mono text-[#00ff88] text-xs mb-2">{item.tag}</p>
                 <p className="text-[#777] text-sm leading-relaxed">{item.desc}</p>

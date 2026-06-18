@@ -85,7 +85,7 @@ export default function GlobeSection() {
               pointRadius={0.6}
               pointColor={() => "#00ff88"}
               pointLabel={(d: any) =>
-                `<div style="background:#0a0a0a;border:1px solid #00ff88;padding:4px 8px;border-radius:4px;font-family:monospace;font-size:11px;color:#00ff88">${d.city}<br/><span style="color:#666">${d.country} · ${d.period}</span></div>`
+                `<div style="background:#060e08;border:1px solid #00ff88;padding:4px 8px;border-radius:4px;font-family:monospace;font-size:11px;color:#00ff88">${d.city}<br/><span style="color:#666">${d.country} · ${d.period}</span></div>`
               }
               arcsData={ARCS}
               arcStartLat="startLat"
@@ -111,7 +111,7 @@ export default function GlobeSection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.4 }}
-              className="flex items-center gap-4 border border-[#1e1e1e] rounded-lg px-5 py-4 bg-[#0f0f0f] hover:border-[#00ff88]/30 transition-colors duration-300"
+              className="flex items-center gap-4 border border-[#16281a] rounded-lg px-5 py-4 bg-[#091508] hover:border-[#00ff88]/30 transition-colors duration-300"
             >
               <span className="font-mono text-[#00ff88] text-lg">●</span>
               <div className="flex-1">

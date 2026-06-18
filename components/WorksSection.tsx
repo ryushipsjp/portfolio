@@ -54,7 +54,7 @@ export default function WorksSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.1 + i * 0.13, duration: 0.5 }}
-              className="group border border-[#1e1e1e] rounded-xl p-6 bg-[#0f0f0f] hover:border-[#00ff88]/30 transition-all duration-300"
+              className="group border border-[#16281a] rounded-xl p-6 bg-[#091508] hover:border-[#00ff88]/30 transition-all duration-300"
             >
               <div className="flex flex-col md:flex-row md:items-start gap-4">
                 <div className="flex-shrink-0">
@@ -78,7 +78,7 @@ export default function WorksSection() {
                     {w.tags.map((t) => (
                       <span
                         key={t}
-                        className="font-mono text-[10px] text-[#666] border border-[#1e1e1e] rounded px-2 py-0.5"
+                        className="font-mono text-[10px] text-[#666] border border-[#16281a] rounded px-2 py-0.5"
                       >
                         {t}
                       </span>

@@ -51,7 +51,7 @@ export default function ServicesSection() {
               initial={{ opacity: 0, y: 24 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.1 + i * 0.12, duration: 0.5 }}
-              className="group border border-[#1e1e1e] rounded-xl p-6 bg-[#0f0f0f] hover:border-[#00ff88]/40 hover:bg-[#0f0f0f] transition-all duration-300 cursor-default"
+              className="group border border-[#16281a] rounded-xl p-6 bg-[#091508] hover:border-[#00ff88]/40 hover:bg-[#091508] transition-all duration-300 cursor-default"
             >
               <span className="text-3xl mb-5 block">{s.icon}</span>
               <h3 className="font-mono text-[#e2e2e2] font-bold text-base mb-3">

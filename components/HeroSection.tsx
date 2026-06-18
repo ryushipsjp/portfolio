@@ -64,10 +64,10 @@ export default function HeroSection() {
         initial={{ opacity: 0, y: 32 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.25 }}
-        className="bg-[#0f0f0f] border border-[#1e1e1e] rounded-xl overflow-hidden w-full max-w-lg"
+        className="bg-[#091508] border border-[#16281a] rounded-xl overflow-hidden w-full max-w-lg"
       >
         {/* Title bar */}
-        <div className="flex items-center gap-2 px-4 py-3 bg-[#161616] border-b border-[#1e1e1e]">
+        <div className="flex items-center gap-2 px-4 py-3 bg-[#0d1e0e] border-b border-[#16281a]">
           <span className="w-3 h-3 rounded-full bg-[#ff5f56]" />
           <span className="w-3 h-3 rounded-full bg-[#ffbd2e]" />
           <span className="w-3 h-3 rounded-full bg-[#27c93f]" />
