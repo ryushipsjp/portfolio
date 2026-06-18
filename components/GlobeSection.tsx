@@ -39,6 +39,7 @@ const VISITED = [
   { city: "London", country: "UK", lat: 51.5074, lng: -0.1278 },
   { city: "Haparanda", country: "Sweden", lat: 65.8354, lng: 24.1355 },
   { city: "Riga", country: "Latvia", lat: 56.9496, lng: 24.1052 },
+  { city: "Boston", country: "USA", lat: 42.3601, lng: -71.0589 },
 ];
 
 const ALL_POINTS = [
@@ -87,7 +88,7 @@ export default function GlobeSection() {
         居住 & 旅行歴
       </h2>
       <p className="text-[#44aa77] text-sm mb-10 max-w-lg">
-        4都市に居住、28都市を訪問。世界を肌で知ることがアイデアの源泉。
+        4都市に居住、29都市を訪問。世界を肌で知ることがアイデアの源泉。
       </p>
 
       <div className="flex flex-col lg:flex-row items-start gap-10">
