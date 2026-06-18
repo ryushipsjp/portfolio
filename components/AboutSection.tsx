@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import Image from "next/image";
 import SectionLabel from "./SectionLabel";
 
 const HIGHLIGHTS = [
@@ -32,7 +33,47 @@ export default function AboutSection() {
       >
         <SectionLabel>About</SectionLabel>
 
-        <div className="grid md:grid-cols-2 gap-12 mt-8">
+        {/* Profile card */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ delay: 0.1, duration: 0.5 }}
+          className="flex items-center gap-5 bg-[#0f0f0f] border border-[#1e1e1e] rounded-2xl p-5 mt-8 mb-10 max-w-sm"
+        >
+          {/* Avatar */}
+          <div className="relative flex-shrink-0 w-20 h-20 rounded-full overflow-hidden border-2 border-[#00ff88]/30 bg-[#161616]">
+            <Image
+              src="/avatar.png"
+              alt="ryusu avatar"
+              fill
+              className="object-cover object-top scale-[1.15]"
+              priority
+            />
+          </div>
+
+          {/* Info */}
+          <div>
+            <div className="flex items-center gap-2 mb-1">
+              <p className="font-mono font-bold text-[#e2e2e2] text-base">ryusu</p>
+              <span className="font-mono text-[10px] text-[#00ff88] border border-[#00ff88]/40 rounded-full px-2 py-0.5">
+                Available
+              </span>
+            </div>
+            <p className="font-mono text-[#555] text-xs mb-2">AI × Automation Engineer</p>
+            <div className="flex flex-wrap gap-1.5">
+              {["広告代理店", "Claude Code", "MCP"].map((tag) => (
+                <span
+                  key={tag}
+                  className="font-mono text-[9px] text-[#444] border border-[#1e1e1e] rounded px-1.5 py-0.5"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        </motion.div>
+
+        <div className="grid md:grid-cols-2 gap-12">
           {/* Left */}
           <div>
             <h2 className="font-mono text-2xl md:text-3xl font-bold text-[#e2e2e2] leading-snug mb-6">
@@ -65,7 +106,7 @@ export default function AboutSection() {
                 key={i}
                 initial={{ opacity: 0, x: 20 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
-                transition={{ delay: 0.15 + i * 0.12, duration: 0.5 }}
+                transition={{ delay: 0.2 + i * 0.12, duration: 0.5 }}
                 className="border border-[#1e1e1e] rounded-lg p-4 bg-[#0f0f0f] hover:border-[#00ff88]/30 transition-colors duration-300"
               >
                 <p className="font-mono text-[#00ff88] text-xs mb-2">{item.tag}</p>
