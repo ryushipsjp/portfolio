@@ -54,12 +54,12 @@ export default function AboutSection() {
           {/* Info */}
           <div>
             <div className="flex items-center gap-2 mb-1">
-              <p className="font-mono font-bold text-[#e2e2e2] text-base">ryusu</p>
+              <p className="font-mono font-bold text-[#e2e2e2] text-base">Ryusuke Mori</p>
               <span className="font-mono text-[10px] text-[#00ff88] border border-[#00ff88]/40 rounded-full px-2 py-0.5">
                 Available
               </span>
             </div>
-            <p className="font-mono text-[#555] text-xs mb-2">AI × Automation Engineer</p>
+            <p className="font-mono text-[#555] text-xs mb-2">Automation Designer</p>
             <div className="flex flex-wrap gap-1.5">
               {["広告代理店", "Claude Code", "MCP"].map((tag) => (
                 <span
@@ -83,8 +83,8 @@ export default function AboutSection() {
               <span className="text-[#00ff88]">両軸で持つ。</span>
             </h2>
             <p className="text-[#666] text-sm leading-relaxed mb-4">
-              広告代理店でキャンペーン管理をAIで自動化するうちに、
-              「ツールを使う側」から「ツールを作る側」へシフト。
+              Amazon Japanでブランドの売上成長に従事。転職後の現在は、
+              広告系でAIによる業務フローの自動化に従事している。
             </p>
             <p className="text-[#666] text-sm leading-relaxed mb-6">
               Claude Code + MCPを核に、Google Workspaceを横断する
