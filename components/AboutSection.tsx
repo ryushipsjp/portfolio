@@ -54,7 +54,7 @@ export default function AboutSection() {
           {/* Info */}
           <div>
             <div className="flex items-center gap-2 mb-1">
-              <p className="font-mono font-bold text-[#e2e2e2] text-base">Ryusuke Mori</p>
+              <p className="font-mono font-bold text-[#00ff88] text-base">Ryusuke Mori</p>
               <span className="font-mono text-[10px] text-[#00ff88] border border-[#00ff88]/40 rounded-full px-2 py-0.5">
                 Available
               </span>
