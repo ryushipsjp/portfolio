@@ -45,7 +45,7 @@ export default function HeroSection() {
         transition={{ duration: 0.7 }}
         className="mb-10"
       >
-        <p className="font-mono text-[#666] text-xs tracking-[0.3em] uppercase mb-4">
+        <p className="font-mono text-[#44aa77] text-xs tracking-[0.3em] uppercase mb-4">
           // Portfolio 2025
         </p>
         <h1 className="font-mono text-[clamp(2.2rem,8vw,4.5rem)] font-bold leading-[1.1] text-[#e2e2e2] mb-5">
@@ -53,7 +53,7 @@ export default function HeroSection() {
           <br />
           <span className="text-[#00ff88]">Automate more.</span>
         </h1>
-        <p className="text-[#666] text-base md:text-lg max-w-md leading-relaxed">
+        <p className="text-[#44aa77] text-base md:text-lg max-w-md leading-relaxed">
           広告代理店発のAI自動化エンジニア。<br />
           実務経験とコードで、業務を根本から変える。
         </p>
@@ -64,14 +64,14 @@ export default function HeroSection() {
         initial={{ opacity: 0, y: 32 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.25 }}
-        className="bg-[#091508] border border-[#16281a] rounded-xl overflow-hidden w-full max-w-lg"
+        className="bg-[#0f0f0f] border border-[#1e1e1e] rounded-xl overflow-hidden w-full max-w-lg"
       >
         {/* Title bar */}
-        <div className="flex items-center gap-2 px-4 py-3 bg-[#0d1e0e] border-b border-[#16281a]">
+        <div className="flex items-center gap-2 px-4 py-3 bg-[#161616] border-b border-[#1e1e1e]">
           <span className="w-3 h-3 rounded-full bg-[#ff5f56]" />
           <span className="w-3 h-3 rounded-full bg-[#ffbd2e]" />
           <span className="w-3 h-3 rounded-full bg-[#27c93f]" />
-          <span className="font-mono text-[#555] text-xs ml-2">
+          <span className="font-mono text-[#00cc66] text-xs ml-2">
             ryusu — zsh
           </span>
         </div>
@@ -141,7 +141,7 @@ export default function HeroSection() {
         ].map((s) => (
           <div key={s.l}>
             <p className="font-mono text-2xl font-bold text-[#00ff88]">{s.n}</p>
-            <p className="text-[#666] text-xs mt-1">{s.l}</p>
+            <p className="text-[#44aa77] text-xs mt-1">{s.l}</p>
           </div>
         ))}
       </motion.div>

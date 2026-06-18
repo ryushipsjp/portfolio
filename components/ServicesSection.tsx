@@ -40,7 +40,7 @@ export default function ServicesSection() {
         <h2 className="font-mono text-2xl md:text-3xl font-bold text-[#e2e2e2] mt-2 mb-3">
           提供できること
         </h2>
-        <p className="text-[#555] text-sm mb-12 max-w-md">
+        <p className="text-[#00cc66] text-sm mb-12 max-w-md">
           実務経験と個人開発の両方から生まれた、即戦力の自動化サービス。
         </p>
 
@@ -51,18 +51,18 @@ export default function ServicesSection() {
               initial={{ opacity: 0, y: 24 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.1 + i * 0.12, duration: 0.5 }}
-              className="group border border-[#16281a] rounded-xl p-6 bg-[#091508] hover:border-[#00ff88]/40 hover:bg-[#091508] transition-all duration-300 cursor-default"
+              className="group border border-[#1e1e1e] rounded-xl p-6 bg-[#0f0f0f] hover:border-[#00ff88]/40 hover:bg-[#0f0f0f] transition-all duration-300 cursor-default"
             >
               <span className="text-3xl mb-5 block">{s.icon}</span>
               <h3 className="font-mono text-[#e2e2e2] font-bold text-base mb-3">
                 {s.title}
               </h3>
-              <p className="text-[#666] text-sm leading-relaxed mb-5">{s.desc}</p>
+              <p className="text-[#44aa77] text-sm leading-relaxed mb-5">{s.desc}</p>
               <div className="flex flex-wrap gap-2">
                 {s.tags.map((t) => (
                   <span
                     key={t}
-                    className="font-mono text-[10px] text-[#666] border border-[#222] rounded px-2 py-0.5 group-hover:border-[#00ff88]/20 group-hover:text-[#00ff88]/60 transition-colors duration-300"
+                    className="font-mono text-[10px] text-[#44aa77] border border-[#222] rounded px-2 py-0.5 group-hover:border-[#00ff88]/20 group-hover:text-[#00ff88]/60 transition-colors duration-300"
                   >
                     {t}
                   </span>

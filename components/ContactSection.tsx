@@ -14,7 +14,7 @@ export default function ContactSection() {
         initial={{ opacity: 0, y: 28 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.6 }}
-        className="border border-[#16281a] rounded-2xl p-8 md:p-14 bg-[#091508] text-center relative overflow-hidden"
+        className="border border-[#1e1e1e] rounded-2xl p-8 md:p-14 bg-[#0f0f0f] text-center relative overflow-hidden"
       >
         {/* BG glow */}
         <div className="absolute inset-0 pointer-events-none">
@@ -27,7 +27,7 @@ export default function ContactSection() {
           自動化で、<br />
           <span className="text-[#00ff88]">あなたのビジネスを変えませんか。</span>
         </h2>
-        <p className="text-[#666] text-sm leading-relaxed max-w-md mx-auto mb-10">
+        <p className="text-[#44aa77] text-sm leading-relaxed max-w-md mx-auto mb-10">
           副業・フリーランス案件を受け付けています。
           AI自動化・広告運用効率化・Google Workspace連携など、
           まずはお気軽にご相談ください。
@@ -36,7 +36,7 @@ export default function ContactSection() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="mailto:your@email.com"
-            className="font-mono text-sm bg-[#00ff88] text-[#060e08] font-bold px-8 py-4 rounded-lg hover:bg-[#00cc6a] transition-colors duration-200"
+            className="font-mono text-sm bg-[#00ff88] text-[#0a0a0a] font-bold px-8 py-4 rounded-lg hover:bg-[#00cc6a] transition-colors duration-200"
           >
             メールで相談する →
           </a>
@@ -44,13 +44,13 @@ export default function ContactSection() {
             href="https://x.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-mono text-sm border border-[#16281a] text-[#888] px-8 py-4 rounded-lg hover:border-[#00ff88]/40 hover:text-[#e2e2e2] transition-all duration-200"
+            className="font-mono text-sm border border-[#1e1e1e] text-[#888] px-8 py-4 rounded-lg hover:border-[#00ff88]/40 hover:text-[#e2e2e2] transition-all duration-200"
           >
             X (Twitter) で DM
           </a>
         </div>
 
-        <p className="font-mono text-[#555] text-xs mt-10">
+        <p className="font-mono text-[#00cc66] text-xs mt-10">
           返信は通常1〜2営業日以内です
         </p>
       </motion.div>

@@ -75,7 +75,7 @@ export default function GlobeSection() {
       <h2 className="font-mono text-2xl md:text-3xl font-bold text-[#e2e2e2] mt-2 mb-3">
         居住 & 旅行歴
       </h2>
-      <p className="text-[#666] text-sm mb-10 max-w-lg">
+      <p className="text-[#44aa77] text-sm mb-10 max-w-lg">
         4都市に居住、17都市を訪問。世界を肌で知ることがアイデアの源泉。
       </p>
 
@@ -100,7 +100,7 @@ export default function GlobeSection() {
               pointRadius={(d: any) => d.type === "lived" ? 0.7 : 0.35}
               pointColor={(d: any) => d.type === "lived" ? "#00ff88" : "#00aaff"}
               pointLabel={(d: any) =>
-                `<div style="background:#060e08;border:1px solid ${d.type === "lived" ? "#00ff88" : "#00aaff"};padding:4px 10px;border-radius:4px;font-family:monospace;font-size:11px;color:${d.type === "lived" ? "#00ff88" : "#00aaff"}">${d.city}<br/><span style="color:#666">${d.country}${d.label ? " · " + d.label : " · 訪問"}</span></div>`
+                `<div style="background:#0a0a0a;border:1px solid ${d.type === "lived" ? "#00ff88" : "#00aaff"};padding:4px 10px;border-radius:4px;font-family:monospace;font-size:11px;color:${d.type === "lived" ? "#00ff88" : "#00aaff"}">${d.city}<br/><span style="color:#666">${d.country}${d.label ? " · " + d.label : " · 訪問"}</span></div>`
               }
               arcsData={ARCS}
               arcStartLat="startLat"
@@ -130,12 +130,12 @@ export default function GlobeSection() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.08, duration: 0.4 }}
-                  className="flex items-center gap-3 border border-[#16281a] rounded-lg px-4 py-3 bg-[#091508] hover:border-[#00ff88]/30 transition-colors"
+                  className="flex items-center gap-3 border border-[#1e1e1e] rounded-lg px-4 py-3 bg-[#0f0f0f] hover:border-[#00ff88]/30 transition-colors"
                 >
                   <span className="text-[#00ff88] text-xs">●</span>
                   <span className="font-mono text-[#e2e2e2] text-sm flex-1">{loc.city}</span>
-                  <span className="font-mono text-[#555] text-xs">{loc.country}</span>
-                  <span className={`font-mono text-[9px] px-1.5 py-0.5 rounded border ${loc.label === "現在" ? "text-[#00ff88] border-[#00ff88]/30" : "text-[#555] border-[#333]"}`}>
+                  <span className="font-mono text-[#00cc66] text-xs">{loc.country}</span>
+                  <span className={`font-mono text-[9px] px-1.5 py-0.5 rounded border ${loc.label === "現在" ? "text-[#00ff88] border-[#00ff88]/30" : "text-[#00cc66] border-[#333]"}`}>
                     {loc.label}
                   </span>
                 </motion.div>

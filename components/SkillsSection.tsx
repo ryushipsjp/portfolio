@@ -42,7 +42,7 @@ export default function SkillsSection() {
         <h2 className="font-mono text-2xl md:text-3xl font-bold text-[#e2e2e2] mt-2 mb-3">
           技術スタック
         </h2>
-        <p className="text-[#555] text-sm mb-12 max-w-md">
+        <p className="text-[#00cc66] text-sm mb-12 max-w-md">
           実務と個人開発で実際に使い込んだツール・技術のみを記載。
         </p>
 
@@ -53,7 +53,7 @@ export default function SkillsSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.08 + i * 0.09, duration: 0.5 }}
-              className="border border-[#16281a] rounded-xl p-5 bg-[#091508]"
+              className="border border-[#1e1e1e] rounded-xl p-5 bg-[#0f0f0f]"
             >
               <p className="font-mono text-[#00ff88] text-xs mb-4 tracking-wider">
                 {group.category}
