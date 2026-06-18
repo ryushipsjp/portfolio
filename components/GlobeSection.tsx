@@ -57,6 +57,9 @@ const VISITED = [
   { city: "Hachijojima", country: "Japan", lat: 33.1058, lng: 139.7900 },
   { city: "Oshima", country: "Japan", lat: 34.7447, lng: 139.3597 },
   { city: "Miyakejima", country: "Japan", lat: 34.0833, lng: 139.5167 },
+  { city: "Kushiro", country: "Japan", lat: 42.9849, lng: 144.3820 },
+  { city: "Abashiri", country: "Japan", lat: 44.0154, lng: 144.2729 },
+  { city: "Asahikawa", country: "Japan", lat: 43.7707, lng: 142.3649 },
 ];
 
 const ALL_POINTS = [
@@ -105,7 +108,7 @@ export default function GlobeSection() {
         居住 & 旅行歴
       </h2>
       <p className="text-[#44aa77] text-sm mb-10 max-w-lg">
-        4都市に居住、47都市を訪問。世界を肌で知ることがアイデアの源泉。
+        4都市に居住、50都市を訪問。世界を肌で知ることがアイデアの源泉。
       </p>
 
       <div className="flex flex-col lg:flex-row items-start gap-10">
