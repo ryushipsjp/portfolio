@@ -43,7 +43,7 @@ export default function WorksSection() {
         <h2 className="font-mono text-2xl md:text-3xl font-bold text-[#e2e2e2] mt-2 mb-3">
           実績・プロジェクト
         </h2>
-        <p className="text-[#00cc66] text-sm mb-12 max-w-md">
+        <p className="text-[#88ccaa] text-sm mb-12 max-w-md">
           実務と個人開発で積み上げた、リアルな自動化の実績。
         </p>
 
@@ -58,7 +58,7 @@ export default function WorksSection() {
             >
               <div className="flex flex-col md:flex-row md:items-start gap-4">
                 <div className="flex-shrink-0">
-                  <span className="font-mono text-[#222] text-4xl font-bold group-hover:text-[#00ff88]/20 transition-colors duration-300">
+                  <span className="font-mono text-[#00cc66] text-4xl font-bold group-hover:text-[#00ff88]/20 transition-colors duration-300">
                     {w.num}
                   </span>
                 </div>
@@ -71,14 +71,14 @@ export default function WorksSection() {
                       {w.type}
                     </span>
                   </div>
-                  <p className="text-[#44aa77] text-sm leading-relaxed mb-4">
+                  <p className="text-[#88ccaa] text-sm leading-relaxed mb-4">
                     {w.desc}
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {w.tags.map((t) => (
                       <span
                         key={t}
-                        className="font-mono text-[10px] text-[#44aa77] border border-[#1e1e1e] rounded px-2 py-0.5"
+                        className="font-mono text-[10px] text-[#88ccaa] border border-[#1e1e1e] rounded px-2 py-0.5"
                       >
                         {t}
                       </span>
