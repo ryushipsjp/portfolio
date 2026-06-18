@@ -40,6 +40,20 @@ const VISITED = [
   { city: "Haparanda", country: "Sweden", lat: 65.8354, lng: 24.1355 },
   { city: "Riga", country: "Latvia", lat: 56.9496, lng: 24.1052 },
   { city: "Boston", country: "USA", lat: 42.3601, lng: -71.0589 },
+  { city: "Osaka", country: "Japan", lat: 34.6937, lng: 135.5023 },
+  { city: "Sendai", country: "Japan", lat: 38.2682, lng: 140.8694 },
+  { city: "Sapporo", country: "Japan", lat: 43.0642, lng: 141.3469 },
+  { city: "Nagoya", country: "Japan", lat: 35.1815, lng: 136.9066 },
+  { city: "Hakata", country: "Japan", lat: 33.5904, lng: 130.4017 },
+  { city: "Kurashiki", country: "Japan", lat: 34.5851, lng: 133.7720 },
+  { city: "Takamatsu", country: "Japan", lat: 34.3401, lng: 134.0434 },
+  { city: "Matsuyama", country: "Japan", lat: 33.8392, lng: 132.7657 },
+  { city: "Kochi", country: "Japan", lat: 33.5597, lng: 133.5311 },
+  { city: "Kyoto", country: "Japan", lat: 35.0116, lng: 135.7681 },
+  { city: "Morioka", country: "Japan", lat: 39.7036, lng: 141.1527 },
+  { city: "Aomori", country: "Japan", lat: 40.8244, lng: 140.7400 },
+  { city: "Hakodate", country: "Japan", lat: 41.7686, lng: 140.7290 },
+  { city: "Okinawa", country: "Japan", lat: 26.2124, lng: 127.6809 },
 ];
 
 const ALL_POINTS = [
@@ -88,7 +102,7 @@ export default function GlobeSection() {
         居住 & 旅行歴
       </h2>
       <p className="text-[#44aa77] text-sm mb-10 max-w-lg">
-        4都市に居住、29都市を訪問。世界を肌で知ることがアイデアの源泉。
+        4都市に居住、44都市を訪問。世界を肌で知ることがアイデアの源泉。
       </p>
 
       <div className="flex flex-col lg:flex-row items-start gap-10">
