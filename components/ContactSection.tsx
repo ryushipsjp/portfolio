@@ -50,7 +50,7 @@ export default function ContactSection() {
           </a>
         </div>
 
-        <p className="font-mono text-[#333] text-xs mt-10">
+        <p className="font-mono text-[#555] text-xs mt-10">
           返信は通常1〜2営業日以内です
         </p>
       </motion.div>

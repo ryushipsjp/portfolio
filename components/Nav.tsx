@@ -29,7 +29,7 @@ export default function Nav() {
     >
       <div className="max-w-5xl mx-auto px-5 py-4 flex items-center justify-between">
         <a href="#" className="font-mono font-bold text-[#00ff88] tracking-tight">
-          ryusu<span className="text-[#444]">.dev</span>
+          ryusu<span className="text-[#555]">.dev</span>
         </a>
 
         {/* Desktop links */}

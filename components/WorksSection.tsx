@@ -78,7 +78,7 @@ export default function WorksSection() {
                     {w.tags.map((t) => (
                       <span
                         key={t}
-                        className="font-mono text-[10px] text-[#444] border border-[#1e1e1e] rounded px-2 py-0.5"
+                        className="font-mono text-[10px] text-[#666] border border-[#1e1e1e] rounded px-2 py-0.5"
                       >
                         {t}
                       </span>

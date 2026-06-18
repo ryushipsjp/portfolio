@@ -62,7 +62,7 @@ export default function ServicesSection() {
                 {s.tags.map((t) => (
                   <span
                     key={t}
-                    className="font-mono text-[10px] text-[#444] border border-[#222] rounded px-2 py-0.5 group-hover:border-[#00ff88]/20 group-hover:text-[#00ff88]/60 transition-colors duration-300"
+                    className="font-mono text-[10px] text-[#666] border border-[#222] rounded px-2 py-0.5 group-hover:border-[#00ff88]/20 group-hover:text-[#00ff88]/60 transition-colors duration-300"
                   >
                     {t}
                   </span>

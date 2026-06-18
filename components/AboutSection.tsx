@@ -59,12 +59,12 @@ export default function AboutSection() {
                 Available
               </span>
             </div>
-            <p className="font-mono text-[#555] text-xs mb-2">Automation Designer</p>
+            <p className="font-mono text-[#888] text-xs mb-2">Automation Designer</p>
             <div className="flex flex-wrap gap-1.5">
               {["広告代理店", "Claude Code", "MCP"].map((tag) => (
                 <span
                   key={tag}
-                  className="font-mono text-[9px] text-[#444] border border-[#1e1e1e] rounded px-1.5 py-0.5"
+                  className="font-mono text-[9px] text-[#777] border border-[#333] rounded px-1.5 py-0.5"
                 >
                   {tag}
                 </span>
