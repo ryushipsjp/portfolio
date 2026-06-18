@@ -28,6 +28,17 @@ const VISITED = [
   { city: "Sydney", country: "Australia", lat: -33.8688, lng: 151.2093 },
   { city: "Melbourne", country: "Australia", lat: -37.8136, lng: 144.9631 },
   { city: "Gold Coast", country: "Australia", lat: -28.0167, lng: 153.4000 },
+  { city: "Manila", country: "Philippines", lat: 14.5995, lng: 120.9842 },
+  { city: "Cebu", country: "Philippines", lat: 10.3157, lng: 123.8854 },
+  { city: "Singapore", country: "Singapore", lat: 1.3521, lng: 103.8198 },
+  { city: "Bali", country: "Indonesia", lat: -8.4095, lng: 115.1889 },
+  { city: "Istanbul", country: "Turkey", lat: 41.0082, lng: 28.9784 },
+  { city: "Bratislava", country: "Slovakia", lat: 48.1486, lng: 17.1077 },
+  { city: "Ostrava", country: "Czechia", lat: 49.8209, lng: 18.2625 },
+  { city: "Hamburg", country: "Germany", lat: 53.5511, lng: 9.9937 },
+  { city: "London", country: "UK", lat: 51.5074, lng: -0.1278 },
+  { city: "Haparanda", country: "Sweden", lat: 65.8354, lng: 24.1355 },
+  { city: "Riga", country: "Latvia", lat: 56.9496, lng: 24.1052 },
 ];
 
 const ALL_POINTS = [
@@ -76,7 +87,7 @@ export default function GlobeSection() {
         居住 & 旅行歴
       </h2>
       <p className="text-[#44aa77] text-sm mb-10 max-w-lg">
-        4都市に居住、17都市を訪問。世界を肌で知ることがアイデアの源泉。
+        4都市に居住、28都市を訪問。世界を肌で知ることがアイデアの源泉。
       </p>
 
       <div className="flex flex-col lg:flex-row items-start gap-10">
